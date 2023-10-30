@@ -53,7 +53,7 @@ export const config = {
     //
     capabilities: [{
         "platformName": "Android",
-        "appium:platformVersion": "13.0",
+        "appium:platformVersion": "9.0",
         "appium:deviceName": "ebac-qe",
         "appium:automationName": "UiAutomator2",
         "appium:appWaitActivity": ".MainActivity",
