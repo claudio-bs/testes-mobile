@@ -9,12 +9,15 @@ exports.config = {
         './test/specs/**/*.spec.js'
     ],
     framework: 'mocha',
-    capabilities: [{
+    capabilities: [
+        {
             "platformName": "Android",
-            "appium:platformVersion": "13.0",
+            "appium:platformVersion": "9.0",
             "appium:deviceName": "ebac-qe",
             "appium:automationName": "UiAutomator2",
-            "app": join(process.cwd(), './app/android/loja-ebac.apk'),
-            "appWaitActivity": 'com.woocommerce.android/.ui.login.LoginActivity'
-    }]
+            "appium:appPackage": "com.woocommerce.android",
+            "appium:appActivity": ".ui.main.MainActivity",
+            "appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
+          }
+    ]
 }
