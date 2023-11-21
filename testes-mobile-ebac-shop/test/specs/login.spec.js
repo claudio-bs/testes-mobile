@@ -17,6 +17,6 @@ describe('Access Admin Panel', () => {
         await loginScreen.twoFactorLogin(senha)
 
         expect (await myStoreScreen.myStoreLogoIsDisplayed()).toBeTruthy()
-        expect(await myStoreScreen.getStoreName()).toEqual('EBAC - Shop')
+        expect (await myStoreScreen.getStoreName()).toEqual('EBAC - Shop')
     });
 });
