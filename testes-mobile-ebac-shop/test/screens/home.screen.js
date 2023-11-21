@@ -4,7 +4,7 @@ class HomeScreen {
     }
 
     async goToLogin(){
-        this.#enterStoreAddress.click()
+        await this.#enterStoreAddress.click()
     }
 }
 
