@@ -19,7 +19,7 @@ class LoginScreen {
         await this.#continue.click()
     }
 
-    async continue(){
+    async continueWithStoreCredentials(){
         await this.#continueWithStoreCredentials.click()
     }
 
