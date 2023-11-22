@@ -1,0 +1,11 @@
+[90m2023-11-22T20:43:42.358Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2023-11-22T20:43:42.359Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2023-11-22T20:43:43.166Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"ckheghc8x4p1ipjbeslamfqfbf4sself0i8qvbau","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI3OTkxNTIxIiwiZ3JvdXBfaWQiOjc4OTkxMjUsInVzZXJfaWQiOjc5OTE1MjEsImJ1aWxkX2hhc2hlZF9pZCI6ImNraGVnaGM4eDRwMWlwamJlc2xhbWZxZmJmNHNzZWxmMGk4cXZiYXUiLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzAwNjg1ODIzLCJleHAiOjE3MDEwMzE0MjN9.gqIy5cDLOLgkTdnmhvh-g1j7Nw2KVSYFhHP-wginpIE","allow_screenshots":true}
+[90m2023-11-22T20:43:43.166Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2023-11-22T20:45:12.044Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2023-11-22T20:45:12.044Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2023-11-22T20:45:12.568Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
+[90m2023-11-22T20:45:13.539Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}

@@ -13,7 +13,6 @@ class MyStoreScreen {
     }
 
     async myStoreLogoIsDisplayed(){
-        await this.#myStoreLogo.waitForExist()
         await this.#myStoreLogo.waitForDisplayed({ timeout: 10000})
         return await this.#myStoreLogo.isDisplayed()
     }
