@@ -1,6 +1,5 @@
 class LoginScreen {
-
-    get #storeAddress() { return $('android.widget.EditText') }
+    get #storeAddress(){ return $('android.widget.EditText') }
 
     get #continue() { return $('id:bottom_button') }
 
@@ -12,15 +11,15 @@ class LoginScreen {
 
     get#twoFactorPasswordBtn() { return $('id:login_enter_password') }
 
-    async setStoreAddress(url) {
+    async setStoreAddress(url){
         await this.#storeAddress.setValue(url)
     }
 
-    async continue() {
+    async continue(){
         await this.#continue.click()
     }
 
-    async continueWithStoreCredentials() {
+    async continue(){
         await this.#continueWithStoreCredentials.click()
     }
 

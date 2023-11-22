@@ -1,8 +1,9 @@
 class HomeScreen {
+    get #enterStoreAddress(){
+        return $('id:button_login_store')
+    }
 
-    get #enterStoreAddress() { return $('id:button_login_store') }
-
-    async goToLogin() {
+    async goToLogin(){
         await this.#enterStoreAddress.click()
     }
 }
