@@ -5,7 +5,7 @@ const allure = require('allure-commandline')
 
 exports.config = {
     // hostname: 'localhost',
-    port: 4723,
+    //port: 4723,
     // path: '/wd/hub',
     user: "cludiobarretosan_ScXFJE",
     key: "VfUsp2xqWa1KCngtS7Bg",
@@ -26,8 +26,8 @@ exports.config = {
             //"appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
 
             'app': 'bs://bf591bae6641bc766255b2247d65ef5b95db77f3',
-            'device': 'Samsung Galaxy Note S22 Ultra',
-            'os_version': '12.0',
+            'device': 'Samsung Galaxy Note 20',
+            'os_version': '10.0',
             'project': 'Meu primeiro projeto em Device Farm',
             'build': '1',
             'name': 'teste_login'
