@@ -4,9 +4,9 @@ const allure = require('allure-commandline')
 
 
 exports.config = {
-    // hostname: 'localhost',
+    //hostname: 'localhost',
     //port: 4723,
-    // path: '/wd/hub',
+    //path: '/wd/hub',
     user: "cludiobarretosan_ScXFJE",
     key: "VfUsp2xqWa1KCngtS7Bg",
     //services: ['appium'],
@@ -18,9 +18,9 @@ exports.config = {
     capabilities: [
         {
             //"platformName": "Android",
-            //"appium:platformVersion": //"9.0",
+            //"appium:platformVersion": "9.0",
             //"appium:deviceName": "ebac-qe",
-            //"appium:automationName": //"UiAutomator2",
+            //"appium:automationName": "UiAutomator2",
             //"appium:appPackage": "com.woocommerce.android",
             //"appium:appActivity": ".ui.main.MainActivity",
             //"appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
@@ -28,9 +28,9 @@ exports.config = {
             'app': 'bs://bf591bae6641bc766255b2247d65ef5b95db77f3',
             'device': 'Samsung Galaxy Note 20',
             'os_version': '10.0',
-            'project': 'Meu primeiro projeto em Device Farm',
-            'build': '1',
-            'name': 'teste_login'
+            'project': 'Meu segundo projeto em Device Farm',
+            'build': '2',
+            'name': 'add_product'
         }
     ],
     waitForTimeout: 20000,
