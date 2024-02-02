@@ -4,7 +4,8 @@
   "description": "Projeto de Testes EBAC Mobile",
   "main": "index.js",
   "scripts": {
-    "test": "wdio run ./wdio.conf.js",
+    "test": "npx wdio run ./wdio.conf.js",
+    "test:ios": "npx wdio run ./wdio.ios.conf.js --suite products",
     "report": "npx allure open allure-report"
   },
   "author": "",
