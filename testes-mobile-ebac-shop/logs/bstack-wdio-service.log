@@ -1,29 +1,28 @@
-[90m2024-02-02T20:05:47.419Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
-[90m2024-02-02T20:05:47.421Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
-[90m2024-02-02T20:05:48.253Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"e5ri3mmzjccsh6ra9coa5qncqenwmwcgt8hghic6","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI3OTkxNTIxIiwiZ3JvdXBfaWQiOjc4OTkxMjUsInVzZXJfaWQiOjc5OTE1MjEsImJ1aWxkX2hhc2hlZF9pZCI6ImU1cmkzbW16amNjc2g2cmE5Y29hNXFuY3Flbndtd2NndDhoZ2hpYzYiLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzA2OTA0MzQ4LCJleHAiOjE3MDcyNDk5NDh9.2PDM0OwRNLQ_FrdvktyeveIfc5JkhNBfT0ztkBife4Y","allow_screenshots":true}
-[90m2024-02-02T20:05:48.254Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
-[90m2024-02-02T20:06:20.880Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/f8de764ab65caafdf616244545622e7c17682ae7.json
-[90m2024-02-02T20:06:21.314Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId f8de764ab65caafdf616244545622e7c17682ae7
-[90m2024-02-02T20:06:21.314Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/f8de764ab65caafdf616244545622e7c17682ae7.json with request body: 
-[90m2024-02-02T20:06:21.593Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId f8de764ab65caafdf616244545622e7c17682ae7
-[90m2024-02-02T20:06:21.594Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/f8de764ab65caafdf616244545622e7c17682ae7.json with request body: 
-[90m2024-02-02T20:06:29.470Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-02-02T20:06:30.109Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-02-02T20:06:30.392Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-02-02T20:06:30.694Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
-[90m2024-02-02T20:06:30.749Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 4, Queue length after removal = 0
-[90m2024-02-02T20:06:31.404Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [INTERVAL_QUEUE] Success response: {"success":true}
-[90m2024-02-02T20:06:31.685Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [screenshot_upload] Success response: {"success":true}
-[90m2024-02-02T20:06:31.685Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
-[90m2024-02-02T20:06:31.785Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
-[90m2024-02-02T20:06:31.786Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId f8de764ab65caafdf616244545622e7c17682ae7
-[90m2024-02-02T20:06:31.786Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/f8de764ab65caafdf616244545622e7c17682ae7.json with request body: 
-[90m2024-02-02T20:06:32.736Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
-[90m2024-02-02T20:06:32.752Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
-[90m2024-02-02T20:06:35.477Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
-[90m2024-02-02T20:06:35.477Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
-[90m2024-02-02T20:06:35.656Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
-[90m2024-02-02T20:06:36.581Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+[90m2024-02-03T16:31:19.469Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-02-03T16:31:19.470Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-02-03T16:31:20.317Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"hgc8udfh01wl4u2xd2tznxklhjkvk50wjmepa9a7","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI4MjYzOTQwIiwiZ3JvdXBfaWQiOjgxNzY3NzgsInVzZXJfaWQiOjgyNjM5NDAsImJ1aWxkX2hhc2hlZF9pZCI6ImhnYzh1ZGZoMDF3bDR1MnhkMnR6bnhrbGhqa3ZrNTB3am1lcGE5YTciLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzA2OTc3ODgwLCJleHAiOjE3MDczMjM0ODB9.dqrfxbJy07Hqi4MwZiFMQjjBrsLgrNxPK6rPvW6kTMI","allow_screenshots":true}
+[90m2024-02-03T16:31:20.318Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-02-03T16:31:53.896Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Requesting Browserstack session URL at https://api.browserstack.com/automate/sessions/d2cc3b087c8b34b4f690ba84a83b637e44806cb3.json
+[90m2024-02-03T16:31:54.459Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d2cc3b087c8b34b4f690ba84a83b637e44806cb3
+[90m2024-02-03T16:31:54.460Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d2cc3b087c8b34b4f690ba84a83b637e44806cb3.json with request body: 
+[90m2024-02-03T16:31:54.760Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d2cc3b087c8b34b4f690ba84a83b637e44806cb3
+[90m2024-02-03T16:31:54.761Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d2cc3b087c8b34b4f690ba84a83b637e44806cb3.json with request body: 
+[90m2024-02-03T16:32:04.572Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-02-03T16:32:05.250Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-02-03T16:32:05.547Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-02-03T16:32:05.767Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending data from request queue. Data length = 3, Queue length after removal = 0
+[90m2024-02-03T16:32:06.431Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [INTERVAL_QUEUE] Success response: {"success":true}
+[90m2024-02-03T16:32:06.589Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [screenshot_upload] Success response: {"success":true}
+[90m2024-02-03T16:32:06.589Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 1
+[90m2024-02-03T16:32:06.716Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 2
+[90m2024-02-03T16:32:06.717Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m Update job with sessionId d2cc3b087c8b34b4f690ba84a83b637e44806cb3
+[90m2024-02-03T16:32:06.717Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Updating Browserstack session at https://api.browserstack.com/automate/sessions/d2cc3b087c8b34b4f690ba84a83b637e44806cb3.json with request body: 
+[90m2024-02-03T16:32:06.755Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 3
+[90m2024-02-03T16:32:07.593Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Added data to request queue. Queue length = 4
+[90m2024-02-03T16:32:10.169Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-02-03T16:32:10.169Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-02-03T16:32:10.334Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
+[90m2024-02-03T16:32:11.293Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
   status: 'success',
   message: 'Logs upload successful in file - logs.gz'
 }
