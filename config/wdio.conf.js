@@ -1,5 +1,6 @@
-const { bsConf } = require('../config/bs.conf');
-const { localConf } = require('../config/local.conf');
+const { bsConf } = require('./bs.conf');
+const { localConf } = require('./local.conf');
+const { sauceConf } = require('./sauce.conf');
 
 require('dotenv').config()
 
@@ -10,7 +11,7 @@ function getConfig() {
         case 'browserstack':
             return bsConf
         case 'saucelabs':
-            return {}
+            return sauceConf
     }
 }
 
