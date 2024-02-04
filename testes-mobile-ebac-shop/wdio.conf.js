@@ -21,9 +21,7 @@ exports.config = {
             //"appium:platformVersion": "9.0",
             //"appium:deviceName": "ebac-qe",
             //"appium:automationName": "UiAutomator2",
-            //"appium:appPackage": "com.woocommerce.android",
-            //"appium:appActivity": ".ui.main.MainActivity",
-            //"appium:appWaitActivity": "com.woocommerce.android.ui.login.LoginActivity"
+            
 
             'app': 'bs://bf591bae6641bc766255b2247d65ef5b95db77f3',
             'device': 'Samsung Galaxy Note 20',
