@@ -4,7 +4,7 @@ const {join} = require('path')
 require('ts-node').register({ files: true })
 const allure = require('allure-commandline')
 
-let reportersConf = process.env.REPORT == true ? {
+let reportersConf = process.env.REPORT == 'true' ? {
     reporters: ['spec',
     ['allure', {
         outputDir: 'allure-results',
