@@ -3,6 +3,7 @@ const { reportersConf } = require("./reports.conf")
 const { specsConf } = require("./specs.conf")
 
 let generalConf = {
+    port: 443,
     path: '/wd/hub',
     framework: 'mocha',
     waitForTimeout: 20000,

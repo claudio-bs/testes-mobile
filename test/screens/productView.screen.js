@@ -24,6 +24,22 @@ class ProductViewScreen {
         return $(`-ios predicate string:name == "1" AND label == "1" AND type == "XCUIElementTypeButton"`)
     }
 
+    get #addSize(){
+        return $('~Size Selecione uma Size')
+    }
+
+    get #addSizeT(){
+        return $('~M')
+    }
+
+    get #addColor(){
+        return $('~Color Selecione uma Color')
+    }
+
+    get #addColorW(){
+        return $('~White')
+    }
+
     async search() {
         await this.#searchIcon.waitForEnabled({ timeout: 10000 })
         await this.#searchIcon.click()
@@ -40,7 +56,7 @@ class ProductViewScreen {
     }
 
     async waitProduct(name){
-        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 10000 })
+        await $(`-ios predicate string:name CONTAINS '${name}'`).waitForDisplayed({ timeout: 20000 })
     }
 
     async product(name){
@@ -53,34 +69,25 @@ class ProductViewScreen {
     }
 
     async setSize(){
-        const x = 145;  // Adjust this value as needed
-        const y = 494;  // Adjust this value as needed
-        await driver.touchAction([{ action: 'tap', x, y }]).click()
-
+        await this.#addSize.click()
     }
 
-    async setSizeM(){
-        const x = 49;  // Adjust this value as needed
-        const y = 619;  // Adjust this value as needed
-        await driver.touchAction([{ action: 'tap', x, y }]).click()
+    async setSizeT(){
+        await this.#addSizeT.click()
     }
 
     async setColor(){
-        const x = 77;  // Adjust this value as needed
-        const y = 574;  // Adjust this value as needed
-        await driver.touchAction([{ action: 'tap', x, y }]).click()
-
+        await this.#addColor.click()
     }
 
-    async setColorBlue(){
-        const x = 60;  // Adjust this value as needed
-        const y = 550;  // Adjust this value as needed
-        await driver.touchAction([{ action: 'tap', x, y }]).click()
+    async setColorW(){
+        await this.#addColorW.click()
     }
 
     async check(){
         await this.#checkcart.click()
     }
+    
 }
 
 module.exports = new ProductViewScreen()

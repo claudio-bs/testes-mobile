@@ -19,7 +19,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
         "appium:deviceName": "iPhone .*",
         "appium:platformVersion": "16.7",
         "sauce:options": {
-            "name": "Teste Login EBAC iOS"
+            "name": "Teste Exercício Módulo 29 EBAC iOS"
         }
     }]
 }
@@ -29,7 +29,7 @@ let sauceConf = {
     ...capabilities,
     user: process.env.SAUCE_USERNAME,
     key: process.env.SAUCE_ACCESS_KEY,
-    region: 'us',
+    region: 'us-west-1',
     services: [
         ['sauce', {
             sauceConnect: true,
