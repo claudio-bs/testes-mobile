@@ -19,7 +19,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
         "appium:deviceName": "iPhone .*",
         "appium:platformVersion": "16.7",
         "sauce:options": {
-            "name": "Teste Exercício Módulo 29 EBAC iOS"
+            "name": "Testes Exercício Módulo 29 EBAC iOS"
         }
     }]
 }
